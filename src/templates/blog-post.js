@@ -35,6 +35,7 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
+        <p>{post.timeToRead}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
@@ -86,10 +87,13 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      timeToRead
+      tableOfContents
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        link
       }
     }
   }
