@@ -1,11 +1,12 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "name": "empatheticbot.com",
+  "private": false,
+  "license": "MIT",
+  "description": "Website/Blog for empatheticbot.com",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Steve Ledsworth <sledsworth@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/sledsworth/empatheticbot.com/issues"
   },
   "dependencies": {
     "gatsby": "^2.13.44",
@@ -40,7 +41,8 @@
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "react"
   ],
   "license": "MIT",
   "main": "n/a",
