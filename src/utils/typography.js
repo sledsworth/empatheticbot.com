@@ -1,5 +1,6 @@
 import Typography from "typography"
 import Wordpress2016 from "typography-theme-wordpress-2016"
+import "./global.css"
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
@@ -11,7 +12,32 @@ Wordpress2016.overrideThemeStyles = () => {
 
 delete Wordpress2016.googleFonts
 
-const typography = new Typography(Wordpress2016)
+const typography = new Typography({
+  baseFontSize: "19px",
+  baseLineHeight: 1.666,
+  scaleRatio: 2.33,
+  headerFontFamily: [
+    "Merriweather Sans",
+    "Avenir Next",
+    "Helvetica Neue",
+    "Segoe UI",
+    "Helvetica",
+    "Arial",
+    "sans-serif",
+  ],
+  headerWeight: "700",
+  googleFonts: [
+    {
+      name: "Merriweather Sans",
+      styles: ["700"],
+    },
+    {
+      name: "Merriweather",
+      styles: ["400", "400i", "700"],
+    },
+  ],
+  bodyFontFamily: ["Merriweather", "Georgia", "serif"],
+})
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

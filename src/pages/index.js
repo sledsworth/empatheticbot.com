@@ -19,23 +19,27 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+            <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+              <article className="card" key={node.fields.slug}>
+                <h3
+                  style={{
+                    marginBottom: rhythm(1 / 12),
+                  }}
+                >
                   {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
+                </h3>
+                <small>
+                  {node.frontmatter.date} &bull; {node.timeToRead} minute
+                  {node.timeToRead > 1 ? "s" : ""}
+                </small>
+                <p
+                  style={{ marginTop: rhythm(1 / 4) }}
+                  dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
+              </article>
+            </Link>
           )
         })}
       </Layout>
@@ -64,6 +68,7 @@ export const pageQuery = graphql`
             title
             description
           }
+          timeToRead
         }
       }
     }

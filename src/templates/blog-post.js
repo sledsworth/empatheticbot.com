@@ -12,38 +12,35 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
+    const header = (
+      <h1
+        style={{
+          marginTop: rhythm(1 / 12),
+          marginBottom: rhythm(2 / 3),
+        }}
+      >
+        {post.frontmatter.title}
+      </h1>
+    )
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1
-          style={{
-            marginTop: rhythm(1),
-            marginBottom: 0,
-          }}
-        >
-          {post.frontmatter.title}
-        </h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-          }}
-        >
-          {post.frontmatter.date}
+        <p style={{ marginBottom: rhythm(1 / 12) }}>
+          {post.frontmatter.date} &bull; {post.timeToRead} minute
+          {post.timeToRead > 1 ? "s" : ""}
         </p>
-        <p>{post.timeToRead}</p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        {post.frontmatter.link && <a href={post.frontmatter.link}>{header}</a>}
+        {!post.frontmatter.link && header}
+        <article dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
         <Bio />
-
         <ul
           style={{
             display: `flex`,

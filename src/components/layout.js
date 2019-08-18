@@ -1,54 +1,66 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import Logo from "../../content/assets/logo.svg"
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
+    const { location, title, children, data } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
-
+    console.log(data)
     if (location.pathname === rootPath) {
       header = (
-        <h1
+        <Link
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
           }}
+          to={`/`}
         >
-          <Link
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              ...scale(0.66),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
+              lineHeight: "3rem",
+              display: "flex",
             }}
-            to={`/`}
           >
+            <Logo
+              style={{ marginRight: "1rem" }}
+              alt="Cute robot face icon where the antenna has a beating heart at the tip. Logo for Empatheticbot."
+            />
             {title}
-          </Link>
-        </h1>
+          </h1>
+        </Link>
       )
     } else {
       header = (
-        <h3
+        <Link
           style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
           }}
+          to={`/`}
         >
-          <Link
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              ...scale(0.66),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
+              lineHeight: "3rem",
+              display: "flex",
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h3>
+            <Logo
+              style={{ marginRight: "1rem" }}
+              alt="Cute robot face icon where the antenna has a beating heart at the tip. Logo for Empatheticbot."
+            />
+          </h1>
+        </Link>
       )
     }
     return (
@@ -62,11 +74,7 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <footer>© {new Date().getFullYear()} Empatheticbot LLC.</footer>
       </div>
     )
   }

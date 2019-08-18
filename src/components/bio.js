@@ -35,9 +35,10 @@ const Bio = () => {
   const { author, social } = data.site.siteMetadata
   return (
     <div
+      className="vibrant-card"
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: rhythm(1.5),
       }}
     >
       <Image
@@ -54,10 +55,12 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong>.{` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          Find him on Twitter
-        </a>
+        Written by{" "}
+        <strong>
+          <a href={`https://twitter.com/${social.twitter}`}>{author}</a>
+        </strong>
+        &mdash;a grumpy curmudgeon trying to make software more scrutable for
+        humans.
       </p>
     </div>
   )
