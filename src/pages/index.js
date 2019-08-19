@@ -1,10 +1,10 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import Excerpt from "../components/excerpt"
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,32 +16,9 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <Bio />
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-              <article className="card" key={node.fields.slug}>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 12),
-                  }}
-                >
-                  {title}
-                </h3>
-                <small>
-                  {node.frontmatter.date} &bull; {node.timeToRead} minute
-                  {node.timeToRead > 1 ? "s" : ""}
-                </small>
-                <p
-                  style={{ marginTop: rhythm(1 / 4) }}
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </article>
-            </Link>
-          )
-        })}
+        {posts.map(({ node }) => (
+          <Excerpt key={node.fields.slug} node={node} />
+        ))}
       </Layout>
     )
   }

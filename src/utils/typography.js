@@ -17,6 +17,7 @@ const typography = new Typography({
   baseLineHeight: 1.666,
   scaleRatio: 2.33,
   headerFontFamily: [
+    "Rubik Mono One",
     "Merriweather Sans",
     "Avenir Next",
     "Helvetica Neue",
@@ -25,7 +26,7 @@ const typography = new Typography({
     "Arial",
     "sans-serif",
   ],
-  headerWeight: "700",
+  headerWeight: "400",
   googleFonts: [
     {
       name: "Merriweather Sans",
@@ -35,8 +36,16 @@ const typography = new Typography({
       name: "Merriweather",
       styles: ["400", "400i", "700"],
     },
+    {
+      name: "Rubik",
+      styles: ["400", "400i", "900"],
+    },
+    {
+      name: "Rubik Mono One",
+      styles: ["400"],
+    },
   ],
-  bodyFontFamily: ["Merriweather", "Georgia", "serif"],
+  bodyFontFamily: ["Rubik", "Merriweather", "Georgia", "serif"],
 })
 
 // Hot reload typography in development.
