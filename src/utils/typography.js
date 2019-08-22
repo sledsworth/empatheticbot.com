@@ -14,7 +14,7 @@ delete Wordpress2016.googleFonts
 
 const typography = new Typography({
   baseFontSize: "19px",
-  baseLineHeight: 1.666,
+  baseLineHeight: 1.33,
   scaleRatio: 2.33,
   headerFontFamily: [
     "Rubik Mono One",
@@ -38,7 +38,7 @@ const typography = new Typography({
     },
     {
       name: "Rubik",
-      styles: ["400", "400i", "900"],
+      styles: ["400", "400i", "500", "900"],
     },
     {
       name: "Rubik Mono One",
