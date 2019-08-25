@@ -45,7 +45,7 @@ h6 {
 	font-variant-east-asian: normal;
 	font-variant-ligatures: normal;
 	font-variant-numeric: normal;
-	letter-spacing: -.1em;
+	letter-spacing: -.02em;
 	word-spacing: -.25em;
 	/* font-family: 'Merriweather Sans'; */
 }
@@ -135,8 +135,12 @@ article aside {
 	display: flex;
 }
 
-article aside small:not(:last-child) {
-	margin-right: 1rem;
+article aside small {
+	margin: 0 .5rem;
+}
+
+article aside small:first-child {
+	margin-left: 0;
 }
 
 .type-tag {
@@ -214,6 +218,11 @@ article small {
 .card-icon-wrapper {
 	flex: 0 4fr 2rem;
 	margin-right: .5rem;
+}
+
+.card-metadata {
+	color: var(--subtle);
+	line-height: 2rem;
 }
 
 @media only screen and (max-width: 480px) {
@@ -442,7 +451,7 @@ pre[data-line] {
 }
 
 #Robot {
-	fill: var(--text);
+	fill: var(--header-bg);
 }
 
 #Background {

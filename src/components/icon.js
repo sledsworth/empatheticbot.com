@@ -8,17 +8,17 @@ import Podcast from "../../content/assets/podcast.svg"
 import External from "../../content/assets/external.svg"
 
 const icons = {
-  link: Link,
-  article: Article,
-  video: Video,
-  podcast: Podcast,
-  external: External,
+  Link: Link,
+  Article: Article,
+  Video: Video,
+  Podcast: Podcast,
+  External: External,
 }
 
 function Icon({ type }) {
   let Icon = icons[type]
   if (!Icon) {
-    Icon = icons.article
+    Icon = icons.Article
   }
   return <Icon />
 }

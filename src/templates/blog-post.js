@@ -5,6 +5,8 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import ArticleHeader from "../components/article-header"
+import { node } from "prop-types"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -28,12 +30,15 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <p style={{ marginBottom: rhythm(1 / 12) }}>
-          {post.frontmatter.date} &bull; {post.timeToRead} minute
-          {post.timeToRead > 1 ? "s" : ""}
-        </p>
-        {post.frontmatter.link && <a href={post.frontmatter.link}>{header}</a>}
-        {!post.frontmatter.link && header}
+        <ArticleHeader
+          frontmatter={post.frontmatter}
+          timeToRead={post.timeToRead}
+        >
+          {post.frontmatter.link && (
+            <a href={post.frontmatter.link}>{header}</a>
+          )}
+          {!post.frontmatter.link && header}
+        </ArticleHeader>
         <article dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
