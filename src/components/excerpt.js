@@ -1,7 +1,7 @@
 import React from "react"
 import { rhythm } from "../utils/typography"
 import { Link } from "gatsby"
-import LinkLogo from "../../content/assets/link.svg"
+import Icon from "./icon"
 
 const Excerpt = ({ node }) => {
   const title = node.frontmatter.title || node.fields.slug
@@ -9,7 +9,7 @@ const Excerpt = ({ node }) => {
     <article className="excerpt">
       <header className="excerpt-header">
         <div className="card-icon-wrapper">
-          <LinkLogo />
+          <Icon type={node.frontmatter.type} />
         </div>
         <div>
           <aside style={{ lineHeight: "2rem" }}>

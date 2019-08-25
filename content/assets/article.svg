@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="48px" viewBox="0 0 45 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>article</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5200FF" offset="0%"></stop>
+            <stop stop-color="#FF05CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="83.0078125%" y1="0%" x2="16.9921875%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#BA1313" offset="0%"></stop>
+            <stop stop-color="#FF05CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="48.3471074%" x2="0%" y2="51.6528926%" id="linearGradient-3">
+            <stop stop-color="#BA1313" offset="0%"></stop>
+            <stop stop-color="#FF05CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="37.5%" x2="0%" y2="62.5%" id="linearGradient-4">
+            <stop stop-color="#BA1313" offset="0%"></stop>
+            <stop stop-color="#FF05CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="47.2318339%" x2="0%" y2="52.7681661%" id="linearGradient-5">
+            <stop stop-color="#BA1313" offset="0%"></stop>
+            <stop stop-color="#FF05CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#BA1313" offset="0%"></stop>
+            <stop stop-color="#FF05CB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <rect id="Rectangle" fill-opacity="0.2" fill="url(#linearGradient-1)" x="3" y="3" width="42" height="42" rx="12"></rect>
+            <path d="M39,3 C39,4.65685425 37.6568542,6 36,6 L14,6 L14,6 L14,6.05492878 C9.50004954,6.55237307 6,10.3674463 6,15 L6,33 C6,37.6325537 9.50004954,41.4476269 14,41.9450712 L18.0000924,41.9764598 C19.6606898,41.9894905 21,43.3393515 21,45 C21,46.6491078 19.663134,47.9859738 18.0140262,47.9859738 C18.0093617,47.9859738 18.0046973,47.9859629 18.0000329,47.9859411 L14,47.9671954 L14,47.9671954 C6.18196818,47.4526094 0,40.9482427 0,33 L0,15 C0,6.71572875 6.71572875,0 15,0 L36,0 C37.6568542,-3.04359188e-16 39,1.34314575 39,3 Z" id="Path" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+            <rect id="Rectangle" fill="url(#linearGradient-3)" x="13" y="12" width="22" height="4" rx="2"></rect>
+            <rect id="Rectangle" fill="url(#linearGradient-4)" x="13" y="19" width="8" height="4" rx="2"></rect>
+            <rect id="Rectangle" fill="url(#linearGradient-5)" x="13" y="26" width="17" height="4" rx="2"></rect>
+            <rect id="Rectangle" fill="url(#linearGradient-6)" x="13" y="33" width="4" height="4" rx="2"></rect>
+        </g>
+    </g>
+</svg>

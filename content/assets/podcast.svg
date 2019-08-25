@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="47px" viewBox="0 0 42 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>podcast</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5200FF" offset="0%"></stop>
+            <stop stop-color="#FF05CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="4.02153353%" x2="0%" y2="95.9784665%" id="linearGradient-2">
+            <stop stop-color="#FF1313" offset="0%"></stop>
+            <stop stop-color="#9757FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="7.7231805%" x2="0%" y2="92.2768195%" id="linearGradient-3">
+            <stop stop-color="#FF1313" offset="0%"></stop>
+            <stop stop-color="#9757FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#BA1313" offset="0%"></stop>
+            <stop stop-color="#FF05CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="68%" y1="0%" x2="32%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FF1313" offset="0%"></stop>
+            <stop stop-color="#9757FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="podcast" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <g>
+                <rect id="Rectangle" fill-opacity="0.2" fill="url(#linearGradient-1)" x="0" y="3" width="42" height="42" rx="12"></rect>
+                <path d="M21,0 C32.045695,0 41,8.954305 41,20 C41,25.2355248 37.3342663,31.0540879 30.0027988,37.4556894 L30.0027654,37.4556512 C29.7511162,37.6753832 29.3689862,37.6495092 29.1492542,37.39786 C29.0530256,37.2876537 29,37.1463058 29,37 C29,37 29,37 29,37 C29,36.9979572 28.9999993,36.9959117 28.9999978,36.9938635 L28.9999964,36.9938635 C28.9985654,35.0002236 29.7415743,33.0778854 31.08346,31.6034551 C35.02782,27.2694914 37,23.401673 37,20 C37,11.163444 29.836556,4 21,4 C12.163444,4 5,11.163444 5,20 C5,23.4014945 6.97216495,27.2691694 10.9164948,31.6030246 L10.9164932,31.6030261 C12.258452,33.077511 13.0014816,34.999947 13.0000023,36.9936765 C13.0000008,36.9957872 13,36.997895 13,37 C13,37 13,37 13,37 C13,37.3339485 12.7292812,37.6046673 12.3953327,37.6046673 C12.2490901,37.6046673 12.1078029,37.5516666 11.9976416,37.4554825 C4.6658834,31.0539566 1,25.2354657 1,20 C1,8.954305 9.954305,0 21,0 Z" id="Path" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                <path d="M21,8 C27.627417,8 33,13.372583 33,20 C33,22.4379062 31.6302881,25.2843499 28.8908643,28.5393311 C28.3246734,29.2120106 27.3203748,29.2983867 26.6476671,28.7322293 C26.5439881,28.6449721 26.4518741,28.5448346 26.3735593,28.4342456 C25.7176138,27.5079794 25.764059,26.2569817 26.4868706,25.3818948 C28.1622902,23.3535682 29,21.5596033 29,20 C29,15.581722 25.418278,12 21,12 C16.581722,12 13,15.581722 13,20 C13,21.5596288 13.8374987,23.3535678 15.5124961,25.381817 C16.2350966,26.2568456 16.2815753,27.5075961 15.6258937,28.4338294 C15.1180441,29.1512313 14.1247815,29.321107 13.4073797,28.8132574 C13.2967589,28.7349488 13.1965943,28.6428305 13.1093184,28.5391382 C10.3697728,25.2843435 9,22.4379641 9,20 C9,13.372583 14.372583,8 21,8 Z" id="Path" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+                <circle id="Oval" fill="url(#linearGradient-4)" cx="21" cy="20" r="5"></circle>
+                <ellipse id="Oval" fill="url(#linearGradient-5)" cx="21" cy="37" rx="6" ry="10"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

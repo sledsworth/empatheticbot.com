@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>heart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5200FF" offset="0%"></stop>
+            <stop stop-color="#FF05CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="157.513216%" y1="-59.4648632%" x2="-35.2902314%" y2="151.248812%" id="linearGradient-2">
+            <stop stop-color="#BA1313" offset="0%"></stop>
+            <stop stop-color="#FF05CB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="heart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <rect id="Rectangle" fill-opacity="0.2" fill="url(#linearGradient-1)" x="0" y="0" width="42" height="42" rx="12"></rect>
+            <g id="Heart" transform="translate(1.000000, 6.000000)" fill="url(#linearGradient-2)" fill-rule="nonzero">
+                <path d="M15.3200745,0.830081222 C9.80615331,-1.4408266 3.46188916,1.10847164 1.14976394,6.52409821 C-0.502360038,10.3938222 -0.310643564,14.4771607 1.3189465,18.1330824 C2.42198206,20.6076997 4.07119174,22.7032389 6.13333244,24.605884 C8.74126398,27.0121059 11.9414983,29.0317771 15.1804309,30.6223738 L20.021992,33 L24.8635531,30.6223738 C28.065632,29.0498755 31.2873699,26.9925324 33.8884197,24.5667556 C35.9056629,22.6854454 37.5265594,20.6170573 38.6250199,18.1943698 C40.2365933,14.6399962 40.5089772,10.6737204 39.028136,6.85302575 C36.9009697,1.36475791 30.6466881,-1.3906936 25.0588071,0.698552551 C22.9414371,1.49021352 21.2235714,2.86388923 20.0221951,4.56343156 C18.8879345,2.95859876 17.2903086,1.64152189 15.3200745,0.830081222 Z" id="Path-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>
