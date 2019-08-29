@@ -1,11 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Link from "../../content/assets/link.svg"
-import Article from "../../content/assets/article.svg"
-import Video from "../../content/assets/video.svg"
-import Podcast from "../../content/assets/podcast.svg"
-import External from "../../content/assets/external.svg"
+import Link from "../../static/link.svg"
+import Article from "../../static/article.svg"
+import Video from "../../static/video.svg"
+import Podcast from "../../static/podcast.svg"
+import External from "../../static/external.svg"
+import Download from "../../static/download.svg"
 
 const icons = {
   Link: Link,
@@ -13,6 +14,7 @@ const icons = {
   Video: Video,
   Podcast: Podcast,
   External: External,
+  Download: Download,
 }
 
 function Icon({ type }) {

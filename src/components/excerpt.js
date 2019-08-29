@@ -1,13 +1,13 @@
 import React from "react"
 import { rhythm } from "../utils/typography"
 import { Link } from "gatsby"
-import ArticleHeader from "./article-header"
+import ExcerptHeader from "./excerpt-header"
 
 const Excerpt = ({ node }) => {
   const title = node.frontmatter.title || node.fields.slug
   return (
     <article className="excerpt">
-      <ArticleHeader
+      <ExcerptHeader
         excerpt
         timeToRead={node.timeToRead}
         frontmatter={node.frontmatter}
@@ -21,7 +21,7 @@ const Excerpt = ({ node }) => {
             {title}
           </Link>
         </h3>
-      </ArticleHeader>
+      </ExcerptHeader>
       <p
         style={{
           marginBottom: ".5rem",

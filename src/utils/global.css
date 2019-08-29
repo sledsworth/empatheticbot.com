@@ -1,7 +1,7 @@
 /* NO PREFERENCE & LIGHT MODE STYLES */
 :root {
-	--primary: #f83a5e;
-	--secondary: #cc32cd;
+	--primary: #0073ff;
+	--secondary: #ec0569;
 	--text: rgba(0, 0, 0, 0.8);
 	--text-secondary: rgba(0, 0, 0, 0.4);
 	--main-bg: #fdfdfd;
@@ -446,9 +446,9 @@ pre[data-line] {
 
 /* SVG FILLS & STROKES */
 
-#Heart {
+/* #Heart {
 	stroke: var(--primary);
-}
+} */
 
 #Robot {
 	fill: var(--header-bg);
@@ -458,12 +458,12 @@ pre[data-line] {
 	fill: var(--main-bg);
 }
 
-#heart-path {
+#Heart {
 	transform-origin: 13% center;
-	animation: hideshow 1.5s ease infinite;
+	animation: pulse 1.25s cubic-bezier(0.21, -0.08, 0.54, 1.15) infinite;
 }
 
-@keyframes hideshow {
+@keyframes pulse {
 	0% {
 		opacity: 1;
 		transform: none;

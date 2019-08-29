@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import Logo from "../../content/assets/logo.svg"
+import Logo from "../../static/bot.svg"
+import Logo2 from "../../static/empatheticbot.svg"
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
@@ -29,6 +30,10 @@ class Layout extends React.Component {
             }}
           >
             <Logo
+              style={{ marginRight: "1rem" }}
+              alt="Cute robot face icon where the antenna has a beating heart at the tip. Logo for Empatheticbot."
+            />
+            <Logo2
               style={{ marginRight: "1rem" }}
               alt="Cute robot face icon where the antenna has a beating heart at the tip. Logo for Empatheticbot."
             />

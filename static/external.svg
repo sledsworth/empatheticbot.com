@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>External</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="External" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-opacity="0.25" fill="url(#linearGradient-1)" x="4" y="4" width="24" height="24" rx="6"></rect>
+        <path d="M13,8 L12,8 C9.790861,8 8,9.790861 8,12 L8,20 C8,22.209139 9.790861,24 12,24 L20,24 C22.209139,24 24,22.209139 24,20 L24,19 L24,19" id="Path" stroke="url(#linearGradient-1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <g id="Group" transform="translate(14.292246, 2.909936)" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+            <path d="M1.31499818,13.6989512 L13.1037416,1.49134995" id="Path-2" transform="translate(7.500000, 7.500000) rotate(1.000000) translate(-7.500000, -7.500000) "></path>
+            <polyline id="Path-3" points="13.7077535 9.09006389 13.7077535 1.09006389 5.70775355 1.09006389"></polyline>
+        </g>
+    </g>
+</svg>

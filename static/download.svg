@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Download</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-217.725601%" x2="50%" y2="116.124348%" id="linearGradient-2">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="49.0702479%" x2="0%" y2="50.9297521%" id="linearGradient-3">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="47.7040816%" x2="0%" y2="52.2959184%" id="linearGradient-4">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Download" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-opacity="0.25" fill="url(#linearGradient-1)" x="4" y="4" width="24" height="24" rx="6"></rect>
+        <polyline id="Path-6" stroke="url(#linearGradient-2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="8 16 16 23 24 16"></polyline>
+        <rect id="Rectangle" fill="url(#linearGradient-3)" transform="translate(16.000000, 13.500000) rotate(-90.000000) translate(-16.000000, -13.500000) " x="5" y="12" width="22" height="3" rx="1.5"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-4)" x="9" y="26" width="14" height="3" rx="1.5"></rect>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Article</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="48.2421875%" x2="0%" y2="51.7578125%" id="linearGradient-2">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="40.8163265%" x2="0%" y2="59.1836735%" id="linearGradient-3">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="46.875%" x2="0%" y2="53.125%" id="linearGradient-4">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="21.875%" x2="0%" y2="78.125%" id="linearGradient-5">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-opacity="0.25" fill="url(#linearGradient-1)" x="4" y="4" width="24" height="24" rx="6"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-2)" x="8" y="7" width="16" height="3" rx="1.5"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-3)" x="8" y="12" width="7" height="3" rx="1.5"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-4)" x="8" y="17" width="12" height="3" rx="1.5"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-5)" x="8" y="22" width="4" height="3" rx="1.5"></rect>
+    </g>
+</svg>

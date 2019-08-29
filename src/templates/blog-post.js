@@ -6,7 +6,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import ArticleHeader from "../components/article-header"
-import { node } from "prop-types"
 
 class BlogPostTemplate extends React.Component {
   render() {
