@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 import ArticleHeader from "../components/article-header"
 
 class BlogPostTemplate extends React.Component {
@@ -13,16 +12,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
-    const header = (
-      <h1
-        style={{
-          marginTop: rhythm(1 / 12),
-          marginBottom: rhythm(2 / 3),
-        }}
-      >
-        {post.frontmatter.title}
-      </h1>
-    )
+    const header = <h1>{post.frontmatter.title}</h1>
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -39,21 +29,9 @@ class BlogPostTemplate extends React.Component {
           {!post.frontmatter.link && header}
         </ArticleHeader>
         <article dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <hr />
         <Bio />
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
+        <ul>
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">

@@ -1,83 +1,46 @@
 import React from "react"
 import { Link } from "gatsby"
 import Logo from "../../static/bot.svg"
-import Logo2 from "../../static/empatheticbot.svg"
-import { rhythm, scale } from "../utils/typography"
+import "../utils/global.css"
 
 class Layout extends React.Component {
   render() {
     const { location, title, children, data } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
-    console.log(data)
     if (location.pathname === rootPath) {
       header = (
-        <Link
-          style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
-          <h1
-            style={{
-              ...scale(0.66),
-              marginBottom: rhythm(1.5),
-              marginTop: 0,
-              lineHeight: "3rem",
-              display: "flex",
-            }}
-          >
-            <Logo
-              style={{ marginRight: "1rem" }}
-              alt="Cute robot face icon where the antenna has a beating heart at the tip. Logo for Empatheticbot."
-            />
-            <Logo2
-              style={{ marginRight: "1rem" }}
-              alt="Cute robot face icon where the antenna has a beating heart at the tip. Logo for Empatheticbot."
-            />
-            {title}
-          </h1>
+        <Link to={`/`}>
+          <Logo
+            style={{ marginRight: "1rem" }}
+            alt="Cute robot face icon where the antenna has a beating heart at the tip. Logo for Empatheticbot."
+          />
+          <h1>{title}</h1>
         </Link>
       )
     } else {
       header = (
-        <Link
-          style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
-          <h1
+        <header>
+          <Link
             style={{
-              ...scale(0.66),
-              marginBottom: rhythm(1.5),
-              marginTop: 0,
-              lineHeight: "3rem",
-              display: "flex",
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
             }}
+            to={`/`}
           >
             <Logo
               style={{ marginRight: "1rem" }}
               alt="Cute robot face icon where the antenna has a beating heart at the tip. Logo for Empatheticbot."
             />
-          </h1>
-        </Link>
+            <h1>{title}</h1>
+          </Link>
+        </header>
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        <header>{header}</header>
+      <div>
+        {header}
         <main>{children}</main>
         <footer>© {new Date().getFullYear()} Empatheticbot LLC.</footer>
       </div>

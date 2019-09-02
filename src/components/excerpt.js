@@ -1,5 +1,4 @@
 import React from "react"
-import { rhythm } from "../utils/typography"
 import { Link } from "gatsby"
 import ExcerptHeader from "./excerpt-header"
 
@@ -12,11 +11,7 @@ const Excerpt = ({ node }) => {
         timeToRead={node.timeToRead}
         frontmatter={node.frontmatter}
       >
-        <h3
-          style={{
-            marginBottom: rhythm(1 / 4),
-          }}
-        >
+        <h3>
           <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
             {title}
           </Link>
