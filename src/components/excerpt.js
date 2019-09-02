@@ -7,27 +7,22 @@ const Excerpt = ({ node }) => {
   return (
     <article className="excerpt">
       <ExcerptHeader
-        excerpt
         timeToRead={node.timeToRead}
         frontmatter={node.frontmatter}
       >
-        <h3>
-          <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-            {title}
-          </Link>
+        <h3 className="excerpt--heading">
+          <Link to={node.fields.slug}>{title}</Link>
         </h3>
       </ExcerptHeader>
       <p
-        style={{
-          marginBottom: ".5rem",
-        }}
+        className="excerpt--description"
         dangerouslySetInnerHTML={{
           __html: node.frontmatter.description || node.excerpt,
         }}
       />
-      <small className="read-more">
-        <Link to={node.fields.slug}>Read more...</Link>
-      </small>
+      <Link className="excerpt--read-more" to={node.fields.slug}>
+        Read more...
+      </Link>
     </article>
   )
 }

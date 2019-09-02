@@ -4,12 +4,12 @@ import Icon from "./icon"
 
 function ExcerptHeader({ frontmatter, timeToRead, children, excerpt }) {
   return (
-    <header className={`${excerpt ? "excerpt-header" : "excerpt-header"}`}>
-      <div className="card-icon-wrapper">
+    <header className="excerpt--header">
+      <div className="excerpt--icon">
         <Icon type={frontmatter.type} />
       </div>
       <div>
-        <aside className="card-metadata" style={{ lineHeight: "2rem" }}>
+        <aside className="excerpt--metadata">
           <small className="type-tag">{frontmatter.type || "Article"}</small>
           &bull;
           <small>{frontmatter.date}</small>

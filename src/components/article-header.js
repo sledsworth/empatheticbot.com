@@ -4,20 +4,22 @@ import Icon from "./icon"
 
 function ArticleHeader({ frontmatter, timeToRead, children, excerpt }) {
   return (
-    <header className={`${excerpt ? "excerpt-header" : "excerpt-header"}`}>
-      <div className="card-icon-wrapper">
+    <header className="article--header">
+      <div className="article--icon">
         <Icon type={frontmatter.type} />
       </div>
-      <div>
-        <aside className="card-metadata" style={{ lineHeight: "2rem" }}>
-          <small className="type-tag">{frontmatter.type || "Article"}</small>
-          &bull;
-          <small>{frontmatter.date}</small>
-          &bull;
-          <small>{timeToRead} minute read</small>
-        </aside>
-        {children}
-      </div>
+      <aside className="article--metadata">
+        <small className="article--metadata-item__bold">
+          {frontmatter.type || "Article"}
+        </small>
+        &bull;
+        <small className="article--metadata-item">{frontmatter.date}</small>
+        &bull;
+        <small className="article--metadata-item">
+          {timeToRead} minute read
+        </small>
+      </aside>
+      {children}
     </header>
   )
 }
