@@ -9,8 +9,12 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}`
     return (
       <div>
+        <a id="top" />
         <Header root={location.pathname === rootPath} title={title} />
         <main>{children}</main>
+        <a href="#top" className="button__scroll-to-top">
+          Scroll to top
+        </a>
         <Footer />
       </div>
     )

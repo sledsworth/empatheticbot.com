@@ -68,7 +68,12 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link
+        href="https://fonts.googleapis.com/css?family=Rubik:400,400i,700,900&display=swap"
+        rel="stylesheet"
+      />
+    </Helmet>
   )
 }
 
