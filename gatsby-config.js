@@ -57,13 +57,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: ``,
+        name: `empatheticbot`,
         short_name: `empatheticbot`,
         start_url: `/`,
         background_color: `#fefefe`,
         theme_color: `#d0021b`,
         display: `minimal-ui`,
-        icon: `content/assets/empatheticbot.svg`,
+        icon: `content/assets/empatheticbot.png`,
       },
     },
     `gatsby-plugin-offline`,

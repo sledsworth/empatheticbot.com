@@ -10,7 +10,7 @@ class Layout extends React.Component {
     return (
       <div>
         <a id="top" />
-        <Header root={location.pathname === rootPath} title={title} />
+        <Header path={location.path} title={title} />
         <main>{children}</main>
         <a href="#top" className="button__scroll-to-top">
           Scroll to top

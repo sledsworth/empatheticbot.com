@@ -57,7 +57,11 @@ class Styles extends React.Component {
           <li>Test</li>
         </ol>
         <ul>
-          <li>Test</li>
+          <li>
+            Test a fairly long line that has potential to wrap to the next. We
+            want the text to align--not for the wrapped text to be under the
+            bullet or number.
+          </li>
           <li>Test</li>
           <li>Test</li>
           <ul>

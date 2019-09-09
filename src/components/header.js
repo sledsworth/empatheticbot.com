@@ -9,9 +9,15 @@ function Header({ title }) {
         <Logo alt="Cute robot face icon where the antenna has a beating heart at the tip. Logo for Empatheticbot." />
       </Link>
       <nav>
-        <Link>home</Link>
-        <Link>about</Link>
-        <Link>archives</Link>
+        <Link to="/" activeClassName="active-path">
+          home
+        </Link>
+        <Link to="/about" activeClassName="active-path">
+          about
+        </Link>
+        <Link to="/archive" activeClassName="active-path">
+          archive
+        </Link>
       </nav>
     </header>
   )
