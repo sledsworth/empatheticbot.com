@@ -136,7 +136,7 @@ class Styles extends React.Component {
           src="https://f001.backblazeb2.com/file/empatheticbot/about.jpg"
           alt="Steve Ledsworth"
           loading="lazy"
-        ></img>
+        />
         <h2>Links & Decorations</h2>
         <a>Link</a>
         <strong>Bold</strong>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000px" height="600px" viewBox="0 0 2000 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="49.21875%" x2="0%" y2="50.78125%" id="linearGradient-1">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="48.67155%" x2="0%" y2="51.32845%" id="linearGradient-2">
+            <stop stop-color="#0073FF" offset="0%"></stop>
+            <stop stop-color="#EC0569" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="waves" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.6">
+        <path id="wave-1" d="M0,0 L2000,0 L2000,250 C1862.87506,176 1727.87506,139 1595,139 C1395.68741,139 1419.30582,250 1050,250 C680.694181,250 702,139 465,139 C307,139 152,176 0,250 L0,0 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+        <path id="wave-2" d="M0,0 L2000,0 L2000,200.816 C1944.87506,142.570667 1850.87506,113.448 1718,113.448 C1518.68741,113.448 1490.30582,264.712 1121,264.712 C751.694181,264.712 742,113.448 505,113.448 C347,113.448 178.666667,184.298667 0,326 L0,0 Z" id="Rectangle" fill="url(#linearGradient-2)"></path>
+    </g>
+</svg>
