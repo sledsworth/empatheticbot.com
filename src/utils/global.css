@@ -5,7 +5,7 @@
 	--text: rgba(0, 0, 0, 0.8);
 	--text-secondary: rgba(0, 0, 0, 0.4);
 	--main-bg: #fdfdfd;
-	--header-bg: #0d1017;
+	--code-bg: #0d1017;
 	--text-header: #7981a7c0;
 	--subtle: rgba(0, 0, 0, 0.1);
 	--shadow: rgba(0, 0, 0, 0.4);
@@ -20,12 +20,11 @@
 /* DARK MODE OVERRIDES */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--primary: #4286f4;
+		--primary: #0073ff;
 		--secondary: #ec0569;
 		--text: rgba(255, 255, 255, 0.7);
 		--text-secondary: rgba(255, 255, 255, 0.4);
 		--main-bg: #181e29;
-		--header-bg: #0d1017;
 		--subtle: rgba(255, 255, 255, 0.1);
 		--shadow: rgba(0, 0, 0, 0.4);
 		--article-bg: #0d1017;
@@ -419,7 +418,7 @@ pre[data-line] {
 .gatsby-highlight {
 	margin: var(--v-margin) calc(-1 * var(--h-margin));
 	border-radius: 0;
-	background: #011627;
+	background: var(--code-bg);
 	-webkit-overflow-scrolling: touch;
 	overflow: auto;
 	padding: calc(2.5 * var(--v-margin)) var(--h-margin);
@@ -452,15 +451,15 @@ pre[data-line] {
 
 /* SVG FILLS & STROKES */
 
-#Robot {
-	fill: var(--header-bg);
+#bot {
+	fill: var(--text);
 }
 
-#Background {
+#bot-background {
 	fill: var(--main-bg);
 }
 
-#Heart {
+#bot-heart {
 	transform-origin: 13% center;
 	animation: beat 1.25s cubic-bezier(0.21, -0.08, 0.54, 1.15) infinite;
 }
