@@ -11,10 +11,10 @@
 	--shadow: rgba(0, 0, 0, 0.4);
 	--article-bg: #f3f3f6;
 	--max-width: 700px;
-	--line-height: 1.32em;
+	--line-height: 1.39em;
 	--v-margin: .75em;
 	--h-margin: 1.5em;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 /* DARK MODE OVERRIDES */
