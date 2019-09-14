@@ -92,7 +92,7 @@ pre {
 
 blockquote,
 table {
-	margin: var(--v-margin) calc(var(--h-margin) * -1);
+	margin: var(--v-margin) calc(var(--h-margin)/2 - 4px);
 }
 
 h1,
@@ -229,7 +229,7 @@ blockquote {
 	position: relative;
 	border-left: 4px solid var(--primary);
 	color: var(--text);
-	padding: 0 var(--h-margin);
+	padding: 0 calc(var(--h-margin));
 }
 
 /* blockquote:before {
@@ -269,9 +269,14 @@ footer {
 	}
 
 	ol li:before,
-	ul li:before {
+	ul li:before,
+	blockquote {
 		left: calc(-.5 * var(--h-margin));
 	}
+
+	/* blockquote {
+		margin: var(--v-margin) calc(var(--h-margin) * -1);
+	} */
 }
 
 /**
