@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Logo from "../../static/bot.svg"
+import DarkModeSwitch from "./dark-mode-switch"
 
 function Header({ title }) {
   return (
@@ -18,6 +19,7 @@ function Header({ title }) {
         <Link to="/archive" activeClassName="active-path">
           archive
         </Link>
+        <DarkModeSwitch />
       </nav>
     </header>
   )

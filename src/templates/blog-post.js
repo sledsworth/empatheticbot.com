@@ -24,7 +24,9 @@ class BlogPostTemplate extends React.Component {
           timeToRead={post.timeToRead}
         >
           {post.frontmatter.link && (
-            <a href={post.frontmatter.link}>{header}</a>
+            <h1>
+              <a href={post.frontmatter.link}>{post.frontmatter.title}</a>
+            </h1>
           )}
           {!post.frontmatter.link && header}
         </ArticleHeader>
