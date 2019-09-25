@@ -60,6 +60,7 @@ class DarkModeSwitch extends React.Component {
     return (
       <button
         className="dark-mode-toggle--button"
+        aria-label="Dark Mode Theme Toggle"
         onClick={this.toggleDarkMode}
       >
         {this.state.isDarkMode ? <Sun /> : <Moon />}

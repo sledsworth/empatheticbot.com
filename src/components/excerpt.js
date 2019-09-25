@@ -10,19 +10,19 @@ const Excerpt = ({ node }) => {
         timeToRead={node.timeToRead}
         frontmatter={node.frontmatter}
       >
-        <h3 className="excerpt--heading">
-          <Link to={node.fields.slug}>{title}</Link>
-        </h3>
+        <Link to={node.fields.slug}>{title}</Link>
       </ExcerptHeader>
-      <p
-        className="excerpt--description"
-        dangerouslySetInnerHTML={{
-          __html: node.frontmatter.description || node.excerpt,
-        }}
-      />
-      <Link className="excerpt--read-more" to={node.fields.slug}>
-        Read more...
-      </Link>
+      <section className="excerpt--body">
+        <p
+          className="excerpt--body-description"
+          dangerouslySetInnerHTML={{
+            __html: node.frontmatter.description || node.excerpt,
+          }}
+        />
+        <div className="excerpt--body-actions">
+          <Link to={node.fields.slug}>Read more...</Link>
+        </div>
+      </section>
     </article>
   )
 }

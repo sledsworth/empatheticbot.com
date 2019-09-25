@@ -16,7 +16,10 @@ export default function HTML(props) {
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
-          This app works best with JavaScript enabled.
+          <section className="global--callout">
+            JavaScript is not required, but this site works a touch better if it
+            is enabled.
+          </section>
         </noscript>
         <div
           key={`body`}
