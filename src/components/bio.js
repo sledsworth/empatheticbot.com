@@ -14,7 +14,7 @@ const Bio = () => {
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 72, height: 72) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -32,21 +32,14 @@ const Bio = () => {
 
   const { author, social } = data.site.siteMetadata
   return (
-    <div className="vibrant-card">
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      />
+    <div className="global--callout__vibrant bio">
+      <Image fixed={data.avatar.childImageSharp.fixed} alt={author} />
       <p>
         Written by{" "}
         <strong>
           <a href={`https://twitter.com/${social.twitter}`}>{author}</a>
         </strong>
-        &mdash;a grumpy curmudgeon trying to make software more scrutable for
-        humans.
+        &mdash;a developer trying to make software more scrutable to humans.
       </p>
     </div>
   )
