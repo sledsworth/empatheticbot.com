@@ -12,9 +12,11 @@ class Layout extends React.Component {
         <a id="top" />
         <Header path={location.path} title={title} />
         <main>{children}</main>
-        <a href="#top" className="button__scroll-to-top">
-          Scroll to top
-        </a>
+        {false && (
+          <a href="#top" className="scroll-to-top">
+            Scroll to top
+          </a>
+        )}
         <Footer />
       </div>
     )

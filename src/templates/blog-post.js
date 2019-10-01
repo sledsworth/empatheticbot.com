@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ArticleHeader from "../components/article-header"
+import ExcerptHeader from "../components/excerpt-header"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -19,21 +20,17 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <ArticleHeader
+        <ExcerptHeader
           frontmatter={post.frontmatter}
           timeToRead={post.timeToRead}
         >
           {post.frontmatter.link && (
-            <h1>
-              <a href={post.frontmatter.link}>{post.frontmatter.title}</a>
-            </h1>
+            <a href={post.frontmatter.link}>{post.frontmatter.title}</a>
           )}
-          {!post.frontmatter.link && header}
-        </ArticleHeader>
+          {!post.frontmatter.link && post.frontmatter.title}
+        </ExcerptHeader>
         <article dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr />
-        <Bio />
-        <ul>
+        <ul className="other-posts">
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
@@ -41,7 +38,7 @@ class BlogPostTemplate extends React.Component {
               </Link>
             )}
           </li>
-          <li>
+          <li className="other-posts__next">
             {next && (
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
@@ -49,6 +46,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        <Bio />
       </Layout>
     )
   }

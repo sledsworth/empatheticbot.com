@@ -9,6 +9,7 @@ const Excerpt = ({ node }) => {
       <ExcerptHeader
         timeToRead={node.timeToRead}
         frontmatter={node.frontmatter}
+        isExcerpt
       >
         <Link to={node.fields.slug}>{title}</Link>
       </ExcerptHeader>
