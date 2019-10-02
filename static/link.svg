@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="40px" height="40px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
     <title>Link</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#0073FF" offset="0%"></stop>
-            <stop stop-color="#EC0569" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="100%" y1="49.6527778%" x2="0%" y2="50.3472222%" id="linearGradient-2">
-            <stop stop-color="#EC0569" offset="0%"></stop>
-            <stop stop-color="#0073FF" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="100%" y1="19.1326531%" x2="0%" y2="80.8673469%" id="linearGradient-3">
-            <stop stop-color="#EC0569" offset="0%"></stop>
-            <stop stop-color="#0073FF" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="100%" y1="19.1326531%" x2="0%" y2="80.8673469%" id="linearGradient-4">
-            <stop stop-color="#0073FF" offset="0%"></stop>
-            <stop stop-color="#EC0569" offset="100%"></stop>
-        </linearGradient>
-    </defs>
     <g id="Link" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" fill-opacity="0.25" fill="url(#linearGradient-1)" x="4" y="4" width="24" height="24" rx="6"></rect>
         <g id="Group" transform="translate(16.000000, 15.999242) scale(-1, 1) rotate(45.000000) translate(-16.000000, -15.999242) translate(1.000000, 9.999242)">
-            <rect id="Rectangle" stroke="url(#linearGradient-2)" stroke-width="2" x="9" y="5.5" width="12" height="1" rx="0.5"></rect>
-            <path d="M9.58727286,11 L4.58521745,11 C2.05287178,11 0,8.53756612 0,5.5 C0,2.46243388 2.05287178,0 4.58521745,0 L9.58727286,0 C11.6861512,0 13.4556524,1.69158235 13.9999344,4.0001784 L11.2546341,3.99977138 C10.8743831,3.39267806 10.2690582,3 9.58727286,3 L4.58521745,3 C3.43415124,3 2.5010277,4.11928813 2.5010277,5.5 C2.5010277,6.88071187 3.43415124,8 4.58521745,8 L9.00349419,8 L13.6721417,8.00090366 C12.9130629,9.78125037 11.3688226,11 9.58727286,11 Z" id="Combined-Shape" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
-            <path d="M25.5872729,12 L20.5852175,12 C18.0528718,12 16,9.53756612 16,6.5 C16,3.46243388 18.0528718,1 20.5852175,1 L25.5872729,1 C27.6861512,1 29.4556524,2.69158235 29.9999344,5.0001784 L27.2546341,4.99977138 C26.8743831,4.39267806 26.2690582,4 25.5872729,4 L20.5852175,4 C19.4341512,4 18.5010277,5.11928813 18.5010277,6.5 C18.5010277,7.88071187 19.4341512,9 20.5852175,9 L25.0034942,9 L29.6721417,9.00090366 C28.9130629,10.7812504 27.3688226,12 25.5872729,12 Z" id="Combined-Shape" fill="url(#linearGradient-4)" fill-rule="nonzero" transform="translate(23.000000, 6.500000) scale(-1, -1) translate(-23.000000, -6.500000) "></path>
+            <rect id="Rectangle" stroke="#000000" stroke-width="2" x="9" y="5.5" width="12" height="1" rx="0.5"></rect>
+            <path d="M9.58727286,11 L4.58521745,11 C2.05287178,11 0,8.53756612 0,5.5 C0,2.46243388 2.05287178,0 4.58521745,0 L9.58727286,0 C11.6861512,0 13.4556524,1.69158235 13.9999344,4.0001784 L11.2546341,3.99977138 C10.8743831,3.39267806 10.2690582,3 9.58727286,3 L4.58521745,3 C3.43415124,3 2.5010277,4.11928813 2.5010277,5.5 C2.5010277,6.88071187 3.43415124,8 4.58521745,8 L9.00349419,8 L13.6721417,8.00090366 C12.9130629,9.78125037 11.3688226,11 9.58727286,11 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+            <path d="M25.5872729,12 L20.5852175,12 C18.0528718,12 16,9.53756612 16,6.5 C16,3.46243388 18.0528718,1 20.5852175,1 L25.5872729,1 C27.6861512,1 29.4556524,2.69158235 29.9999344,5.0001784 L27.2546341,4.99977138 C26.8743831,4.39267806 26.2690582,4 25.5872729,4 L20.5852175,4 C19.4341512,4 18.5010277,5.11928813 18.5010277,6.5 C18.5010277,7.88071187 19.4341512,9 20.5852175,9 L25.0034942,9 L29.6721417,9.00090366 C28.9130629,10.7812504 27.3688226,12 25.5872729,12 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero" transform="translate(23.000000, 6.500000) scale(-1, -1) translate(-23.000000, -6.500000) "></path>
         </g>
     </g>
 </svg>

@@ -5,7 +5,7 @@ import ExcerptHeader from "./excerpt-header"
 const Excerpt = ({ node }) => {
   const title = node.frontmatter.title || node.fields.slug
   return (
-    <article className="excerpt">
+    <article className="excerpt-card">
       <ExcerptHeader
         timeToRead={node.timeToRead}
         frontmatter={node.frontmatter}
@@ -13,15 +13,14 @@ const Excerpt = ({ node }) => {
       >
         <Link to={node.fields.slug}>{title}</Link>
       </ExcerptHeader>
-      <section className="excerpt--body">
+      <section className="excerpt-card--body">
         <p
-          className="excerpt--body-description"
           dangerouslySetInnerHTML={{
             __html: node.frontmatter.description || node.excerpt,
           }}
         />
-        <div className="excerpt--body-actions">
-          <Link to={node.fields.slug}>Read more...</Link>
+        <div className="excerpt-card--actions">
+          <Link to={node.fields.slug}>Read more →</Link>
         </div>
       </section>
     </article>

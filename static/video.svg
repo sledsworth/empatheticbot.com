@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="40px" height="40px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
     <title>Video</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#0073FF" offset="0%"></stop>
-            <stop stop-color="#EC0569" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="50%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
-            <stop stop-color="#0073FF" offset="0%"></stop>
-            <stop stop-color="#EC0569" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="100%" y1="47.7040816%" x2="0%" y2="52.2959184%" id="linearGradient-3">
-            <stop stop-color="#0073FF" offset="0%"></stop>
-            <stop stop-color="#EC0569" offset="100%"></stop>
-        </linearGradient>
-    </defs>
     <g id="Video" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" fill-opacity="0.25" fill="url(#linearGradient-1)" x="4" y="4" width="24" height="24" rx="6"></rect>
-        <path d="M12,27 L20,27" id="Path-2"></path>
-        <path d="M17.8944272,9.78885438 L24.2763932,22.5527864 C24.5233825,23.0467649 24.3231581,23.6474379 23.8291796,23.8944272 C23.6903242,23.9638549 23.5372111,24 23.381966,24 L10.618034,24 C10.0657492,24 9.61803399,23.5522847 9.61803399,23 C9.61803399,22.8447549 9.65417908,22.6916418 9.7236068,22.5527864 L16.1055728,9.78885438 C16.3525621,9.29487588 16.9532351,9.09465154 17.4472136,9.34164079 C17.640741,9.43840449 17.7976635,9.59532698 17.8944272,9.78885438 Z" id="Triangle" fill="url(#linearGradient-2)" transform="translate(17.000000, 16.000000) rotate(90.000000) translate(-17.000000, -16.000000) "></path>
-        <rect id="Rectangle" fill="url(#linearGradient-3)" x="9" y="26" width="14" height="3" rx="1.5"></rect>
+        <path d="M11,27 L21,27" id="Path-2" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M17.8944272,8.78885438 L24.2763932,21.5527864 C24.5233825,22.0467649 24.3231581,22.6474379 23.8291796,22.8944272 C23.6903242,22.9638549 23.5372111,23 23.381966,23 L10.618034,23 C10.0657492,23 9.61803399,22.5522847 9.61803399,22 C9.61803399,21.8447549 9.65417908,21.6916418 9.7236068,21.5527864 L16.1055728,8.78885438 C16.3525621,8.29487588 16.9532351,8.09465154 17.4472136,8.34164079 C17.640741,8.43840449 17.7976635,8.59532698 17.8944272,8.78885438 Z" id="Triangle" fill="#000000" transform="translate(17.000000, 15.000000) rotate(90.000000) translate(-17.000000, -15.000000) "></path>
     </g>
 </svg>

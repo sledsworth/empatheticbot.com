@@ -4,7 +4,7 @@ import Logo from "../../static/bot.svg"
 
 function Header({ title }) {
   return (
-    <header>
+    <header className="global-header">
       <Link to={`/`} className="logo-link">
         <Logo alt="Cute robot face icon where the antenna has a beating heart at the tip. Logo for Empatheticbot." />
       </Link>

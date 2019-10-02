@@ -20,16 +20,18 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <ExcerptHeader
-          frontmatter={post.frontmatter}
-          timeToRead={post.timeToRead}
-        >
-          {post.frontmatter.link && (
-            <a href={post.frontmatter.link}>{post.frontmatter.title}</a>
-          )}
-          {!post.frontmatter.link && post.frontmatter.title}
-        </ExcerptHeader>
-        <article dangerouslySetInnerHTML={{ __html: post.html }} />
+        <article className="full-article">
+          <ExcerptHeader
+            frontmatter={post.frontmatter}
+            timeToRead={post.timeToRead}
+          >
+            {post.frontmatter.link && (
+              <a href={post.frontmatter.link}>{post.frontmatter.title}</a>
+            )}
+            {!post.frontmatter.link && post.frontmatter.title}
+          </ExcerptHeader>
+          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        </article>
         <ul className="other-posts">
           <li>
             {previous && (
