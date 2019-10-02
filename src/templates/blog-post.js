@@ -5,7 +5,6 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ArticleHeader from "../components/article-header"
-import ExcerptHeader from "../components/excerpt-header"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -21,7 +20,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <article className="full-article">
-          <ExcerptHeader
+          <ArticleHeader
             frontmatter={post.frontmatter}
             timeToRead={post.timeToRead}
           >
@@ -29,8 +28,11 @@ class BlogPostTemplate extends React.Component {
               <a href={post.frontmatter.link}>{post.frontmatter.title}</a>
             )}
             {!post.frontmatter.link && post.frontmatter.title}
-          </ExcerptHeader>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          </ArticleHeader>
+          <section
+            className="full-article--body"
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
         </article>
         <ul className="other-posts">
           <li>

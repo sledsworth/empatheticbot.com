@@ -93,7 +93,7 @@ pre,
 .gatsby-highlight {
   /* margin: var(--v-margin) 0 calc(var(--v-margin) / 2) 0; */
   grid-column: 2 / 3;
-  margin-top: 0.5em;
+  margin-top: 1em;
 }
 
 blockquote,
@@ -121,10 +121,10 @@ h6 {
 }
 
 h1 {
-  font-size: 3.33em;
+  font-size: 2.66em;
 }
 h2 {
-  font-size: 2.66em;
+  font-size: 2.33em;
 }
 h3 {
   font-size: 2em;
@@ -716,7 +716,6 @@ article {
 
 .full-article--body {
   display: grid;
-  grid-template-areas: "icon metadata" "heading heading";
   grid-template-columns: 32px auto;
   column-gap: 0.5rem;
 }
